@@ -3,6 +3,6 @@ gradle:
   working_dir: /home/gradle/project
   volumes:
     - ./:/home/gradle/project
-    - ~/.m2:/home/gradle/.m2
-    - ~/.gradle:/home/gradle/.gradle
+    #- ~/.m2:/home/gradle/.m2
+    #- ~/.gradle:/home/gradle/.gradle
 
